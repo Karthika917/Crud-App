@@ -1,5 +1,5 @@
-import baseUrl from "./baseUrl"
 import commonApi from "./commonApi"
+const baseUrl = "https://crud-server-zbhv.onrender.com"
 
 export const getTicketApi = async()=>{
     return await commonApi("GET",`${baseUrl}/tickets`,{})
